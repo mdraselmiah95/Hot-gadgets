@@ -199,3 +199,36 @@ carousel-section start
     color: white;
     background: linear-gradient(170.41deg, #142033 -10.89%, #1e0d57 92.77%);
 }
+
+/* -----------------------
+  section three Categories
+--------------------------*/
+
+.section-three-container {
+    margin-top: 5rem;
+}
+
+.section-three-content h3 {
+    border-width: 10px 30px;
+    line-height: 3rem;
+    display: inline-block;
+    border-bottom: 5px solid;
+    border-color: #F47C00;
+}
+
+.section-three-content-one h5 {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.section-three-card-one {
+    border-radius: 4px 20px 4px 40px;
+}
+
+.section-three-card-two {
+    border-radius: 20px 4px 40px 4px;
+}
+
+.section-three-card-three {
+    border-radius: 20px 4px 40px 4px;
+}
