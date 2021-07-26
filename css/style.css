@@ -28,6 +28,7 @@ carousel-section start
     background-image: url(../images/bg-2.png), url(../images/bg-1.png);
     background-position: left bottom, center;
     background-repeat: no-repeat;
+    padding: 2% 0;
 }
 
 .carousel-indicators [data-bs-target] {
