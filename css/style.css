@@ -209,12 +209,27 @@ carousel-section start
 }
 
 .section-three-content h3 {
-    border-width: 10px 30px;
-    line-height: 3rem;
+    position: relative;
+    /* line-height: 3rem;
     display: inline-block;
     border-bottom: 5px solid;
-    border-color: #F47C00;
+    border-color: #F47C00; */
 }
+
+.section-three-content h3::after {
+    content: "";
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 2.5rem;
+    bottom: 0px;
+    height: 1px;
+    width: 6.563rem;
+    transform: translate(-50%, 0);
+    border-bottom: 6px solid;
+    border-image: linear-gradient(to right, #FF9C35, #FFD019) 1;
+}
+
 
 .section-three-content-one h5 {
     font-size: 1.75rem;
@@ -241,6 +256,13 @@ footer p {
     letter-spacing: 1px;
     font-family: 'Poppins',
         sans-serif;
+}
+
+/* section three media quire */
+@media only screen and (max-width:575px) {
+    .section-three-content-one img {
+        width: 70%;
+    }
 }
 
 /* -----------------------
