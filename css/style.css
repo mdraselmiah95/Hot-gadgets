@@ -233,6 +233,16 @@ carousel-section start
     border-radius: 20px 4px 40px 4px;
 }
 
+/* ----------------
+   footer section 
+-----------------*/
+footer p {
+    color: gray;
+    letter-spacing: 1px;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
 /* -----------------------
         css end
 --------------------------*/
