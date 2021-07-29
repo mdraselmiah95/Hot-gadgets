@@ -57,6 +57,21 @@ carousel-section start
     color: #4E4E4E;
 }
 
+.carousel-control-next,
+.carousel-control-prev {
+    width: 5%;
+}
+
+.carousel-section-btn {
+    color: #4E4E4E;
+    transition: 0.6s ease;
+}
+
+.carousel-section-btn:hover {
+    color: white;
+    background: linear-gradient(180deg, #0f3f46 -0.01%, #30791e 99.99%);
+}
+
 /* ---------------------
   section one Smartphone 
 ------------------------*/
